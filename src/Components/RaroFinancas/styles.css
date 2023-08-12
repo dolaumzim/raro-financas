@@ -1,0 +1,8 @@
+.RaroFinancas{
+    display: flex;
+    width: 1440px;
+    height: 900px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px; 
+}
