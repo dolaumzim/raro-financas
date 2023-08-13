@@ -1,0 +1,21 @@
+.addTransaction{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0; 
+    border-radius: 11px;
+    border: 1px solid var(--slate-300, #CBD5E1);
+    background: var(--blue-900, #1E3A8A);
+    box-shadow: 5px 15px 30px -5px #DCE0EC;
+    color: var(--tailwind-colors-slate-100, #F1F5F9);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+    padding: 14px 30px 13px 27px; 
+    cursor: pointer;
+}
+
