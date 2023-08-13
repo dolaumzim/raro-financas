@@ -1,0 +1,42 @@
+.tableRow{
+    display: flex;
+    padding-bottom: 8px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch; 
+    color: var(--slate-800, #1E293B);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    border-bottom: 1px solid var(--slate-400, #94A3B8); 
+}
+
+.tableRowCell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0; 
+    max-width: 24.072%;
+    overflow: hidden;
+}
+
+.tableRowType\+{
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 700;
+    color: var(--green-600, #16A34A);  
+}
+
+.tableRowType\-{
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 700;
+    color: var(--red-600, #DC2626);  
+}
