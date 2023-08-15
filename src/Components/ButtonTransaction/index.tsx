@@ -14,14 +14,3 @@ export const ButtonTransaction = ({OnClick} : buttonProps) =>{
         </button>
     )
 }
-
-// export const ButtonTransaction = () =>{
-//     return (
-//         <button className="addTransaction">
-//             <div className="icone">
-//                 <img src="src/assets/Plus.svg" alt="Icone de Adição"/>     
-//             </div>
-//             TRANSAÇÃO
-//         </button>
-//     )
-// }

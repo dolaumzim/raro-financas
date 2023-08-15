@@ -2,7 +2,7 @@ import "./styles.css"
 
 export const Header = () =>{
     return (
-        <header className="header">
+        <header className="headerMain">
             <div className="logo">
                 <img src="src/assets/credit-card.svg" alt="icone cartão de crédito" />
                 Raro Finanças 

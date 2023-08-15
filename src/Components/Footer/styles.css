@@ -1,4 +1,4 @@
-footer{
+.footerMain{
     display: flex;
     padding: 20px 120px;
     justify-content: space-between;
@@ -7,7 +7,7 @@ footer{
     background: var(--tailwind-colors-slate-300, #CBD5E1); 
 }
 
-footer span{
+.footerMain span{
     color: var(--tailwind-colors-slate-800, #1E293B);
     font-family: Mulish;
     font-size: 16px;
@@ -16,7 +16,7 @@ footer span{
     line-height: 130%; /* 20.8px */ 
 }
 
-footer p{
+.footerMain p{
     color: var(--tailwind-colors-slate-800, #1E293B);
     font-family: Mulish;
     font-size: 14px;

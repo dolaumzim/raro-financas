@@ -7,7 +7,7 @@ interface cardProps{
 }
 
 export const Card = ({tipo,valor,icone} : cardProps) =>{
-    const sValor = valor.toFixed(2).toString().split('.');
+    const sValor = valor.toLocaleString("pt-BR",{ style: "currency", currency: "BRL" }).split(',');
     let iconId = 'money';
 
     if (icone === 'trendUp'){
@@ -28,7 +28,7 @@ export const Card = ({tipo,valor,icone} : cardProps) =>{
                 }
                 </div>
             </div>
-            <div className="valueResult">R$ {sValor[0]},<span>{sValor[1]}</span></div>
+            <div className="valueResult">{(sValor[0])},<span>{sValor[1]}</span></div>
         </div>
     )
 }

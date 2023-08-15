@@ -9,6 +9,8 @@
     border-radius: 20px;
     background: var(--slate-50, #F8FAFC);
     box-shadow: 5px 15px 30px -5px #DCE0EC;
+    overflow-y: scroll;
+    max-height: 60vh;
 }
 
 .bar{

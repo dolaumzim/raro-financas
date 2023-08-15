@@ -1,6 +1,6 @@
 import "./styles.css"
 
-interface rowProps {
+export interface rowProps {
     nome : string;
     data : string;
     categoria : string;
@@ -14,7 +14,7 @@ export const TableRow = ({nome, data, categoria, valor, tipo} : rowProps) =>{
             <div className="tableRowCell">{nome}</div>
             <div className="tableRowCell">{data}</div>
             <div className="tableRowCell">{categoria}</div>
-            <div className="tableRowCell">{valor.toFixed(2).split('.').join(',')}</div>
+            <div className="tableRowCell">R${valor.toFixed(2).split('.').join(',')}</div>
             <div className={'tableRowType' + tipo} >{tipo}</div>
         </div>
     )

@@ -17,6 +17,7 @@ export const Transactions = ({children} : props) =>{
                 <div className="tableHeaderCell">Valor</div>
                 <div className="tableHeaderTypeCell">Tipo</div>
             </div>
+            
             {children}
         </div>
     )
