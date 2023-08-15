@@ -1,21 +1,21 @@
-.radioSingle img{
-    width: 16px;
-    height: 16px;
+.radioSingle img {
+  width: 16px;
+  height: 16px;
 }
 
-.radioSingle{
-    display: flex;
-    align-items: center;
-    gap: 8px;   
-    color: var(--slate-800, #1E293B);
-    font-family: Mulish;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-transform: capitalize; 
+.radioSingle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--slate-800, #1e293b);
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
-.radioSingle:hover{
-    outline: none;
+.radioSingle:hover {
+  outline: none;
 }
