@@ -10,6 +10,8 @@
   border: 1px solid var(--slate-300, #cbd5e1);
   background: var(--slate-50, #f8fafc);
   box-shadow: 5px 15px 30px -5px #dce0ec;
+  min-width: 165px;
+  max-width: 19.17vw;
 }
 
 .card span {
@@ -57,10 +59,12 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  /* max-width: 150px; 
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
+  max-width: 100%; 
+    overflow: auto;
+}
+
+.valueResult span {
+  font-size: 1.6vw;
 }
 
 .icone {
@@ -83,4 +87,14 @@
 #money {
   background: #dbeafe;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1100px){
+  .valueResult{
+    font-size: 23px;
+  }
+  
+  .valueResult span {
+    font-size: 16px;
+  }
 }

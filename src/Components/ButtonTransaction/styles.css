@@ -18,3 +18,22 @@
   padding: 14px 30px 13px 27px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1100px){
+
+.media {
+  font-size: 24px;
+  height: 90px;
+  width: 55px;
+  padding: 20px 10px;
+  background: var(--blue-900, #1e3a8a);
+  color: var(--slate-100, #f1f5f9);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+}

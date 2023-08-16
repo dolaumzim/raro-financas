@@ -12,10 +12,10 @@ export const TableRow = ({ nome, data, categoria, valor, tipo }: rowProps) => {
   return (
     <div className="tableRow">
       <div className="tableRowCell">{nome}</div>
-      <div className="tableRowCell">{data}</div>
+      <div className="tableRowCell">{data.split('-').reverse().join('/')}</div>
       <div className="tableRowCell">{categoria}</div>
       <div className="tableRowCell">
-        R${valor.toFixed(2).split('.').join(',')}
+        {valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
       </div>
       <div className={'tableRowType' + tipo}>{tipo}</div>
     </div>

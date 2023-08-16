@@ -35,23 +35,23 @@ function App() {
   ];
 
   const handleActive = (e: rowProps) => {
-    const laele = [...transactionList];
-    laele.unshift({
+    const activeList = [...transactionList];
+    activeList.unshift({
       nome: e.nome,
       data: e.data,
       valor: Number(e.valor),
       categoria: e.categoria,
       tipo: e.tipo
     });
-    setTransactionList(laele);
+    setTransactionList(activeList);
 
     let entryAux = entry;
     let exitAux = exit;
 
     if (e.tipo === '+') {
-      entryAux += laele[0].valor;
+      entryAux += activeList[0].valor;
     } else {
-      exitAux += laele[0].valor;
+      exitAux += activeList[0].valor;
     }
     setEntry(entryAux);
     setExit(exitAux);

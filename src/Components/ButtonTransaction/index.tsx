@@ -10,7 +10,7 @@ export const ButtonTransaction = ({ OnClick }: buttonProps) => {
       <div className="icone">
         <img src="src/assets/Plus.svg" alt="Icone de Adição" />
       </div>
-      TRANSAÇÃO
+      <div className='media'>TRANSAÇÃO</div>
     </button>
   );
 };
