@@ -1,6 +1,64 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #cbd5e1;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #bfc2ca;
+  border-radius: 20px;
+  border: 3px solid #cbd5e1;
+}
+
+body {
+  height: 100vh;
   text-align: center;
+}
+
+.dash {
+  display: flex;
+  padding: 0px 120px;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.content {
+  display: flex;
+  padding: 0px 120px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.noInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  height: 20px;
+  width: 100%;
+  border-radius: 11px;
+  border: 1px solid var(--slate-300, #cbd5e1);
+  background: var(--blue-900, #1e3a8a);
+  opacity: 0.7;
+  box-shadow: 5px 15px 30px -5px #dce0ec;
+  color: var(--tailwind-colors-slate-100, #f1f5f9);
+  font-family: Inter;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 14px 30px 13px 27px;
 }
